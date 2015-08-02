@@ -1,0 +1,9 @@
+task printSpecialSysProps {
+  doLast {
+    System.properties.each { key, value ->
+      if (key.contains('special') || key.contains('org.gradle.daemon')) {
+	println "${key}: ${value}"
+      }
+    }
+  }
+}

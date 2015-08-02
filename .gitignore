@@ -1,0 +1,7 @@
+.gradle/
+build/
+*~
+customHome/caches/
+customHome/daemon/
+customHome/native/
+customHome/wrapper/
