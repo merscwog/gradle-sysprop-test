@@ -7,11 +7,11 @@ The configuration is applied in following order (if an option is configured in m
 
 After checking out this code, run in this sequence, to see discrepany.
 
-test --stop
-test
-test --stop
-test -Dorg.gradle.daemon=true
-test --stop
+* test --stop
+* test
+* test --stop
+* test -Dorg.gradle.daemon=true
+* test --stop
 
 Result of first stop can be ignored, it's just to ensure no daemon is running
 
